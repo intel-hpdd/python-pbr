@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:intel-hpdd/module-tools.git
+	branch = master
+	commit = 104711627362adf7c5e012e069cd14883a5a6a1b
+	parent = f71763db41a5ec70c23608870ce70ed5c6ce8a0a
+	method = merge
+	cmdver = 0.4.0
