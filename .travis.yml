@@ -2,12 +2,6 @@ jobs:
   include:
   - stage: test
     language: generic
-    env: Type='virus scan'
-    sudo: required
-    script:
-    - ./include/travis/virus-scan.sh
-  - stage: test
-    language: generic
     env: Type='mock build test'
     sudo: required
     services:
